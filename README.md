@@ -1,4 +1,4 @@
 pyFileCompare
 =============
 
-Simple text Python File Comparer
+A Simple Python Text File Comparer

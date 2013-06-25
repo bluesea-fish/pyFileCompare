@@ -1,4 +1,4 @@
 pyFileCompare
 =============
 
-A Simple Text File Comparer script written in Python.
+A simple text file comparer script written in Python.

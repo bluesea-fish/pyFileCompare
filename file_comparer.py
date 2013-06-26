@@ -1,4 +1,12 @@
-
+#-------------------------------------------------------------------------------
+# Name:        tk_fileComparer
+# Purpose:     Gui for pyFileComparer
+#
+# Author:      Zach Tuttle
+#
+# Created:    26/06/2013
+# Licence:    GPL
+#-------------------------------------------------------------------------------
 
 print('   Welcome to pyFileCompare!')
 print('<----------------------------->')
@@ -10,7 +18,7 @@ f_root = open(f_selc,  'r+')
 root_file = f_root.read()
 root_file = root_file.lstrip()
 root_file = root_file.rstrip()
-print('File Char Count: ', len(root_file))
+print('File Char Count: ',len(root_file))
 input()
 
 f_comp = input('Please Select the file you want to compare to the root file: ' '\n'

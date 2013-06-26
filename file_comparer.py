@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------------
-# Name:        tk_fileComparer
-# Purpose:     Gui for pyFileComparer
+# Name:        pyfileComparer
+# Purpose:     compare text files to see if they are different.
 #
 # Author:      Zach Tuttle
 #

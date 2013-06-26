@@ -1,6 +1,6 @@
-from colorama import fore, Back, Style
 
-print(Fore.RED + '   Welcome to pyFileCompare!')
+
+print('   Welcome to pyFileCompare!')
 print('<----------------------------->')
 
 f_selc = input('Please Select the root file: ' '\n'

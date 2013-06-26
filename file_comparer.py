@@ -4,7 +4,7 @@
 #
 # Author:      Zach Tuttle
 #
-# Created:    26/06/2013
+# Created:    23/06/2013
 # Licence:    GPL
 #-------------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@ f_comp_selc = open(f_comp, 'r')
 comp_file = f_comp_selc.read()
 comp_file = comp_file.lstrip()
 comp_file = comp_file.rstrip()
-print('File Char Count', len(comp_file))
+print('File Char Count: ', len(comp_file))
 
 if root_file == comp_file:
     print('\n''Your Files Match.')

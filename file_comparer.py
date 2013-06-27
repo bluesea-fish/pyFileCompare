@@ -1,12 +1,18 @@
 #-------------------------------------------------------------------------------
 # Name:        pyfileComparer
-# Purpose:     compare text files to see if they are different.
+# Purpose:     Compare text files to see if they are different.
 #
 # Author:      Zach Tuttle
 #
 # Created:    23/06/2013
 # Licence:    GPL
 #-------------------------------------------------------------------------------
+
+def main():
+    pass
+
+if __name__ == '__main__':
+    main()
 
 print('   Welcome to pyFileCompare!')
 print('<----------------------------->')
@@ -19,7 +25,7 @@ root_file = f_root.read()
 root_file = root_file.lstrip()
 root_file = root_file.rstrip()
 print('File Char Count: ',len(root_file))
-input()
+input('\n' 'Press return to continue...' '\n')
 
 f_comp = input('Please Select the file you want to compare to the root file: ' '\n'
 '\n' 'FILE PATH: ')
